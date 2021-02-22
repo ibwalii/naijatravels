@@ -1,0 +1,71 @@
+.bg-image{
+    background-image: url(../images/bg-3.jpg);
+    background-repeat: no-repeat;
+}
+
+.bg-image-about{
+    background-image: url(../images/bg-2.jpg);
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+
+.bg-image-booking{
+    background-image: url(../images/bg-1.jpg);
+    background-repeat: no-repeat;
+}
+
+.bg-image-contact{
+    background-image: url(../images/bg-4.jpg);
+    background-repeat: no-repeat;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.slogan{
+    text-align: center;
+    animation: slogan 2s linear 1 reverse;
+    position: relative;
+    top: 18%;
+}
+
+@keyframes slogan {
+    0%{
+        top: 18%;
+    }
+    50%{
+        top: 35%;
+    }
+    100%{
+        top: 18%;
+    }
+}
+
+.link-style:hover{
+    background:#05920b;
+}
+
+.link-style-anchor{
+    font-size: 12px;
+}
+
+.link-style-anchor:hover{
+    text-decoration: none;
+}
+
+.icons img{
+    width:2%;
+}
+
+.icons-nav img{
+    width:18%;
+}
+
+.icons-bars img{
+    width:10%;
+}
+
+.loading-img{
+    width:20%;
+}
